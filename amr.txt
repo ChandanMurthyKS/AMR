@@ -1,0 +1,54 @@
+ <div id="menuBtn">
+            <span id="menu">MENU</span>
+        </div>
+        <script>
+            var menuBtn=document.getElementById("menuBtn")
+            var sideNav=document.getElementById("sideNav")
+            var menu=document.getElementById("menu")
+            menuBtn.onclick=function(){
+                if(sideNav.style.right==="-250px"){
+                    sideNav.style.right=="0";
+                }
+                else{
+                    sideNav.style.right=="-250px";
+                }
+            }
+        </script>
+
+
+
+
+
+ nav ul li{
+        list-style: none;
+        margin: 50px 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:#fff
+    }
+    #menuBtn{
+        width:120px;
+        height:40px;
+        background-color: rgb(62, 126, 223);
+        text-align: center;
+        position: fixed;
+        right: 30px;
+        top: 20px;
+        border-radius: 3px;
+        z-index:3;
+        cursor: pointer;
+        color:white;
+        box-shadow: 1px 1px 2px white;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom:0px;
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif
+
+    }
+
+
+
+https://www.youtube.com/watch?v=lBfshkPlMW8
+

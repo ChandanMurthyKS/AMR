@@ -1,0 +1,1006 @@
+ <script src="https://smtpjs.com/v3/smtp.js"></script> 
+         <script>
+            function sendEmail(){
+                Email.send({
+    Host : "smtp.gmail.com",
+    Username : "chandanmurthyks@gmail.com",
+    Password : "9844381938",
+    To : 'chandanamurthyofficial@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: "+document.getElementById("name").value
+    +"<br> Email: "+ocument.getElementById("email").value
+    +"<br> Phone no: "+ocument.getElementById("phone").value
+    +"<br> Message: "+ocument.getElementById("message").value
+}).then(
+  message => alert("Message sent succesfully")
+);
+            }
+           </script>-->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale-1.0">
+    <title>AMR Vision Agro Promoters</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Noto+Serif+Georgian:wght@600&family=Noto+Serif+Khojki&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Noto+Serif+Georgian:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width =device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    
+
+</head>
+<body>
+    <section id="banner">
+       <!---- <img src="netalogo.jpg" class="logo">
+        <img src="amrlogo.jpg" class="amrlogo"-->
+        <img src="amrlogo3.jpg" class="amrlogo3">
+        <div class="banner-text">
+            <h2>AMR</h2>
+            <p><u>Vision Agro Promoters </u><br><br><span>Irrigation Equipment Supplier in Mysore</span></p>
+        </div>
+            <div id="banner-btn">
+                <span id="quote">Get Quote</span>
+            </div>
+           
+            <!--<div class="container">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h3>Get Quote</h3>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Email ID" required>
+                    <input type="text" id="phone" placeholder="Mobile Number" required>
+                    <textarea id="message" rows="4" aria-placeholder="How can i help you?"></textarea>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+           
+    </section>
+
+  
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#features">OUR WORKS</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#testimonial">TESTIMONIALS</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <span id="menu">Menu</span>
+        </div>
+    <section id="Gallery">
+        <div class="title-text">
+            <p>GALLERY</p>
+            <h1>See Us More</h1>
+        </div>
+        <div class="grid">
+            <div class="photos">
+                <a href="pond1.jpg" target="_blank"><img src="pond1.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="pond.jpg" target="_blank"><img src="pond.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="pond.3.jpg" target="_blank"><img src="pond.3.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="automation.jpg" target="_blank"><img src="automation.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="automation2,jpg.jpg" target="_blank"><img src="automation2,jpg.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="amroffice.jpg" target="_blank"><img src="amroffice.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="nameboard.jpg" target="_blank"><img src="nameboard.jpg"></a>
+            </div>
+            <div class="photos">
+                <a href="dripping1.jpeg" target="_blank"><img src="dripping1.jpeg"></a>
+            </div>
+            <div class="photos">
+                <a href="pond1.jpg" target="_blank"><img src="pond1.jpg"></a>
+            </div>
+            
+        </div>
+    </section>
+
+
+        <section id="features">
+            <div class="title-text">
+                <p>OUR WORKS</p>
+                <h1>How they look</h1>
+            </div>
+            <div class="feature-box">
+            <div class="feutures">
+                <h1>Automation Unit</h1>
+                <div class="auto">
+                    <ul>
+                        <li>Modular Nutrigation system</li>
+                        <li>Wide range of soil and substrate<br> applications</li>
+                        <li>Minimal investment requirement</li>
+                        <li>Unrivalled range of irrigation water<br> capabilities</li>
+                        <li>Quantitative or proportional injection</li>
+                        <li>Accurate dosing applications</li>
+                        <li>Fast and efficient recipe adjustments</li>
+                        <li>Manual or fully automated operations</li>
+                        <li>Extremely high flow capabilities</li>
+                        <li>Easily integrated into existing systems</li>
+                     </ul>             
+               </div>
+            </div>
+             <div class="feutures-img">
+               <img src="amr1.jpg">
+            </div>
+        </div>
+        <br><br><br>
+        <div class="feature-box1">
+            <div class="feutures1">
+                <h1>Dripping</h1>
+                <div class="Drip">
+                    <ul>
+                        <li>Modular Nutrigation system</li>
+                   </ul>             
+               </div>
+            </div>
+             <div class="feutures1-img">
+               <img src="amr2.jpeg">
+            </div>
+        </div>
+        
+        </section>
+
+
+            
+       
+          
+        <!--TEstimonials-->
+          <section id="testimonial">
+            <div class="title-text">
+                <p>TESTIMONIALS</p>
+                <h1>What client says</h1>
+            </div>
+                <div class="testimonial-row">
+                    <div class="testimonial-col">
+                        <div class="user">
+                           
+                            <div class="user-info">
+                                <h4>Anilkumar K </h4>
+                                
+                            </div>
+                        </div>
+                        <p>"Best place and team to convert our barren land into monthly high revenue farm with 
+                            complete agricultural solutions from land preparation to marketing solutions.
+                             Thank you team for your wide range of services at affordable price range and timely 
+                             delivery.  .  .<i class="fa fa-pencil" aria-hidden="true"></i> "
+                            
+                            </p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span>3 months ago</span>
+                             
+                    </div>
+                    <div class="testimonial-col">
+                        <div class="user">
+                            <img>
+                            <div class="user-info">
+                                <h4>Mallik K</h4>
+                                
+                                
+                            </div>
+                        </div>
+                        <p>"Very good service here. We no need worry they will teach whats the requirements what we 
+                        have to implement i am happy with them they ill talk nicely and also they will give 
+                        discount.. Please contact them .  .  .<i class="fa fa-pencil" aria-hidden="true"></i>  "</p>
+                        <i class="fa fa-star" aria-hidden="true" style="margin-left: 4px;margin-bottom: 5px;"></i>
+                                    <i class="fa fa-star" aria-hidden="true" ></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span>3 months ago</span>
+                    </div>
+                    <div class="testimonial-col">
+                        <div class="user">
+                            
+                            <div class="user-info">
+                                <h4>Satheesh H</h4>
+                            </div>
+                        <p>"Good place for all your drip irrigation needs. They come and visit your farm & provide
+                         planning according to your agriculture needs.   .    .<i class="fa fa-pencil" aria-hidden="true"></i>  "</p>
+                         <i class="fa fa-star" aria-hidden="true" style="margin-left: 4px;"></i>
+                                    <i class="fa fa-star" aria-hidden="true" ></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span>3 months ago</span>
+                    </div>
+                </div>
+                <div class="more">
+                    <h1><a href="https://www.justdial.com/jdmart/Mysore/Amr-Vision-Agro-Promoters-Opposite-Ni-Ambari-Hotel-Kr-Mohalla/0821PX821-X821-210901224028-J9Z6_BZDET/catalogue" target="_blank"
+                        >more reviews. . . </a></h1>
+                        <span class="devider"></span>
+                        
+
+                </div>
+                
+            </div>
+          </section>
+            <!--footer-->
+            <section id="footer">
+                
+                <div class="title-text">
+                    <!--<img src="amrlogo3.jpg" class="footer-img">-->
+                    
+                    <p>Contact</p>
+                    <h1>Visit Us Today</h1>
+                </div>
+               
+                <div class="footer-row">
+                    <div class="map">
+                        <a href="https://www.google.com/maps/place/AMR+Vision+Agro+Promoters/@12.3053538,76.6478166,17.26z/data=!4m6!3m5!1s0x3baf71256f508fcd:0x6aed418c36f8d18c!8m2!3d12.3052828!4d76.649736!16s%2Fg%2F11r_f3zlv6" target="blank"><img src="amrmap.jpg.png"></a>
+                    </div>
+                    <div class="footer-left">
+                        <h1>Opening hours</h1>
+                      <p><i class="fab fa-clock-o"></i>Mon(9am - 7pm)</p>
+                      <p><i class="fa fa-clock-o" aria-hidden="true"></i>Tue(9am - 7pm)</p>
+                      <p><i class="fa fa-clock-o" aria-hidden="true"></i>Wed(9am - 7pm)</p>
+                      <p><i class="fa fa-clock-o" aria-hidden="true"></i>Thu(9am - 7pm)</p>
+                      <p><i class="fa fa-clock-o" aria-hidden="true"></i>Fri(9am - 7pm)</p>
+                      <p><i class="fa fa-clock-o" aria-hidden="true"></i>Sat(9am - 6pm)</p>
+                      <p><i class="fa fa-clock-o" aria-hidden="true"></i>Sun(closed)</p>
+                     
+                    </div>
+                    
+                    <div class="footer-right">
+                       <h1>Get In Touch <i class="fa fa-address-card" aria-hidden="true"></i></h1>
+                       <p><i class="fa fa-map-marker" aria-hidden="true"></i>  188, 1st Floor </p>
+                       <p>Ramavilas Road,<br>opp.NI Ambari Hotel  </p>
+                       <p>KR Mohalla,Mysuru<br>Karnataka-570024</p>
+                       
+                       <p>India </p><br>
+                       <p> <i class="fa fa-phone" aria-hidden="true"></i>  090086 51034  </p>
+                       <p> <i class="fa fa-phone" aria-hidden="true"></i>  098808 58668  </p>
+                      </div>
+
+                </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/amr_irrigation/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://en-gb.facebook.com/AmrIrrigation/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/@amrvisionagropromoters5266" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i></a>
+            </div>
+
+
+          
+            
+            
+       
+         <script>
+            var menuBtn=document.getElementById("menuBtn")
+            var sidenav=document.getElementById("sidenav")
+            var menu=document.getElementById("menu")
+            sidenav.style.right="-250px";
+            menuBtn.onclick=function(){
+                if(sidenav.style.right=="-250px"){
+                    sidenav.style.right="5px";
+                }
+                else{
+                    sidenav.style.right="-250px";
+                }
+                     
+            }
+            var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+        </script>
+        <script>
+        var quotebtn=document.getElementsByClassName("banner-btn")
+        var userform=document.getElementsByClassName("container")
+        userform.style.width="0px";
+        quotebtn.onclick=function(){
+            if(userform.style.width="0px"){
+            userform.style.width="100%"
+            }
+            else{
+                userform.style.width="0px";
+            }
+        }
+
+        </script>
+
+
+       
+</body>
+</html>
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688),url(amr6.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.logo{
+    width:40px;
+    height:40px;
+    left: 20px;
+    top: 20px;
+    position:absolute;
+    box-shadow: 1px 1px 2px white;
+       }
+.amrlogo{
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:20px;
+    top:70px;
+    box-shadow: 1px 1px 2px rgb(16, 106, 241);
+   
+   }
+   .amrlogo3{
+      width:40px;
+      height:54px;
+      position:absolute;
+      box-shadow: 1px 1px 2px white;
+      left:260px;
+    top:86px;
+    border-radius: 1px;;
+
+   }
+   .banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+   ;
+     }
+     .banner-text h2{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 60px;
+        text-shadow: 5px 5px 10px rgb(16, 106, 241);
+     }
+     .banner-text p{ font-size: 13px;
+      color:orange;
+        text-shadow: 1px 2px 2px rgb(16, 106, 241);
+       
+     }
+     .banner-text span{
+        font-size: 10px;
+        color:white;
+        /*text-shadow:2px 2px 2px #8fd5ce;*/
+        
+     }
+
+
+   #banner-btn{
+   
+    border: none;
+    margin-top: 20px;;
+    
+   
+    
+    }
+    #quote{
+        width:130px;
+       
+        display: inline-block;
+        margin: 10px 300px;
+        padding:12px 12px;
+        font-size: 25px;
+        font-weight: bold;
+       
+        color:orange;
+        border:0.5px solid #fff;
+        background:linear-gradient(to top,rgb(62, 126, 223)50%,rgb(60, 167, 239));
+        border-radius:5px;
+        box-shadow: black 4px 4px 4px;
+        z-index: 1;
+        position: relative;
+        transition:color .5s;
+    }
+ 
+        #quote:hover{
+        background:rgba(255, 255, 255, 0.642);
+        color:rgb(62, 126, 223)
+    }
+    .container{
+      width:0px;
+      height:100wh;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+    }
+    form{
+      background: white;
+      display:flex;
+      flex-direction:column;
+      padding:2vw 4vw;
+      width:90%;
+      max-width: 600px;
+      border-radius:10px;
+    }
+    form h3{
+      color:#555;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    form input, form textarea{
+      border: 0;
+      margin: 10px 0;
+      padding: 20px;
+      outline:none ;
+      background:#f5f5f5;
+      font-size: 16px;
+    }
+
+    form button{
+      padding: 15px;
+      background:rgb(60, 167, 239);
+      color:white;
+      font-size: 18px;
+      border:0;
+      outline:none;
+      cursor:pointer;
+      width:550px;
+      margin:20px auto 0;
+      border-radius:30px;
+
+    }
+
+   
+
+    
+    #sidenav{
+        width:100px;
+        height:50vh;
+        position:fixed;
+        right:-250px;
+        top:60px;
+        background: rgba(255, 255, 255, 0.927);
+        border-radius: 5px;
+        transition: 0.3s;
+
+    }
+    nav ul li{
+        list-style: none;
+        margin: 10px 20px;
+    }
+    nav ul li a{
+       text-decoration: none;
+        color:rgb(62, 126, 223);
+        text-shadow: 1px 1px 0px rgb(212, 218, 227) ;
+      font-size: 10px;
+        transition: 0.3s ease;
+    }
+    nav ul li a:hover{
+        color:blanchedalmond;
+
+    }
+    #menuBtn{
+        
+        height: 30px;
+        background:linear-gradient(to top,rgb(62, 126, 223)50%,rgb(60, 167, 239));
+        text-align: center;
+        position: fixed;
+        right:28px;
+        top:20px;
+        border-radius: 3px;
+        z-index: 3;
+        cursor: pointer;
+        box-shadow: 3px 3px 3px black;
+        transition: .2s ease;
+        border: 0.5px white solid;
+    }
+    #menuBtn:hover{
+        background-color: #ffffff;
+        background:rgba(255, 255, 255, 0.642);
+        
+    }
+
+    #menuBtn span{
+      
+      font-size: 35px;
+      font-weight: bold;
+      color:white;
+      padding-top: 4px;
+      display: inline-block;
+      transition: .3s ease;
+    }
+    #menuBtn span:hover{
+      color:rgb(62, 126, 223)
+    }
+
+ /*----mobile ----*/
+    @media screen and (max-width:770px){
+        .logo{
+            width:40px;
+            height:40px;
+            top:10px;
+            left:10px;
+        }
+        .amrlogo{
+            width:40px;
+            height:40px;
+            top:60px;
+            left:10px;
+        }
+        #menuBtn{
+            right: 20px;
+            width:70px;
+            height:30px;
+            
+        }
+        #menuBtn span{
+         
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+        padding-top: 4px;
+        display: inline-block;
+        transition: .3s ease;
+      }
+      .auto ul li{
+        font-size: 10px;
+      }
+      .auto ul{
+         width:max-content;
+         font-size: 8px;
+      }
+
+      .feutures-img{
+         flex-basis:100%;
+        
+         
+
+      }
+      .feutures-img img{
+         width:100%;
+         margin-top: 10px;
+         
+    
+          }
+          .Drip ul li{
+            font-size: 8px;
+         }
+         .Drip ul{
+            width:max-content;
+            font-size: 8px;
+         }
+   
+         .feutures1-img{
+            flex-basis:100%;
+           
+            
+   
+         }
+         .feutures1-img img{
+            width:100%;
+            margin-top: 10px;
+         }
+           
+       
+       
+            
+      }
+      /*--Gallery--*/
+    #Gallery{
+     width:100%;
+     padding:70px 0px;
+     background: #efefef;
+
+    }
+    
+    .grid{
+      width:80%;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-around;
+      margin:auto;
+    }
+    .photos{
+      flex-basis:33%;
+      text-align:center;
+      border-radius:7px;
+      margin-bottom:20px;
+      color:#fff;
+      position:relative;
+      transition: .5s ease;
+    }
+   
+
+   
+    .photos img{
+      width:90%;
+      border-radius: 2px;
+      position: relative;
+      transition: .8s ease;
+      
+    }
+    
+    .photos img:hover{
+      transform: translateY(-10px);
+      
+   }
+      
+
+   
+     /*----feautures----*/
+
+  
+ #features{
+    width:100%;
+    padding: 70px 0px;
+    border-bottom: #009688;
+    
+
+ }
+ .title-text{
+    text-align: center;
+    padding-bottom: 70px;
+    
+    font-weight: bold;
+    font: 30px;
+  
+ }
+ .title-text p{
+    margin:auto;
+    font-size: 30px;
+    color:rgb(62, 126, 223);
+    font-weight: bold;
+    position:relative;
+    z-index:1;
+    display: inline-block;
+ }
+ .title-text p::after{
+    content:'';
+    width:50px;
+    height:35px;
+    background:linear-gradient(to top,rgb(233, 235, 239)60%,rgb(16, 106, 241));
+    position:absolute;
+    top:-20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+ }
+ .title-text h1{
+    font-size: 30px;
+    
+    text-shadow: 1px 1px 1px rgb(62, 126, 223);
+    color: black;
+    
+
+ }
+ 
+ .feature-box{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    text-align:center;
+    box-shadow:0px 10px 20px 3px rgba(16, 106, 241, 0.283) ; 
+
+    
+
+
+ }
+ .feutures{
+    flex-basis:40%;
+ }
+ .feutures h1{
+    font-size: 20px;
+    
+   text-align:center;
+    margin-bottom: 10px;
+    color:rgb(62, 126, 223);
+   
+
+ }
+ .auto ul{
+   margin-left: 8px;
+   text-shadow: 2.5px 1.5px 2px px rgb(62, 126, 223) ;
+ }
+ .auto ul li{
+   text-align: left;
+   font-size: 10px;
+   font-weight: bold;
+   margin-left: 20px;
+}
+ .feutures-img{
+    flex-basis:48%;
+    margin: auto;
+ }
+ .feutures-img img{
+    width:100%;
+    height:220px;
+    
+
+ }
+ 
+ 
+ .feature-box1{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    text-align:center;
+    box-shadow:0px 10px 20px 3px #00968814; 
+    box-shadow:0px 10px 20px 3px rgba(16, 106, 241, 0.283) ; 
+
+
+ }
+ .feutures1{
+    flex-basis:50%;
+ }
+ .feutures1 h1{
+   font-size: 20px;
+  
+   text-align:center;
+   color:rgb(62, 126, 223);
+   text-align:center;
+   margin-bottom: 10px;
+ }
+   .Drip{
+      text-align:center;
+  
+      font-size: 25px;
+     
+   }
+   .Drip ul {
+     margin-left:25px;
+   }
+   .Drip ul li{
+      text-align: left;
+      font-size: 10px;
+      font-weight: bold;
+      margin-left: 20px;
+   }
+   
+  
+  
+     
+ 
+ .feutures1-img{
+    flex-basis:48%;
+    margin: auto;
+ }
+ .feutures1-img img{
+    width:100%;
+ }
+
+ 
+ 
+ 
+
+ /*----testimonial----*/
+ #testimonial{
+   width:100%;
+   padding:70px 0;
+ }
+
+   .testimonial-row{
+      width:80%;
+      margin: auto;
+      display:flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+     
+   
+
+   }
+   .title-text p{
+      font-size: 25px;
+      
+   }
+   .testimonial-col{
+      flex-basis: 28%;
+      padding: 10px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 10px 20px 3px rgba(62, 126, 223, 0.571);
+      cursor: pointer;
+      transition: transform .5s;
+      height: 250px;
+   }
+   .testimonial-col p{
+     
+      font-size: 10px;
+   }
+   .user-info h4{
+     
+      color:rgb(62, 126, 223) ;
+      margin-bottom: 6px;
+     
+   }
+   .testimonial-col .fa{
+      color: rgb(62, 126, 223);
+     font-size: 9px;
+     margin-left: 0px;
+     padding-bottom: 3px;
+        }
+        .testimonial-col span{          
+            font-size: 10px;
+       margin-left: 20px;
+       color: rgb(116, 114, 114);
+     
+        }
+        .testimonial-col:hover{
+         transform: translateY(-7px);
+
+        }
+        .more {
+        padding-left: 240px;
+        padding-top: 250px;
+        }
+        .more a{
+         color: rgb(62, 126, 223);
+         text-decoration: none;
+
+        }
+        .more a:hover{
+         color:orange;
+      }
+                @media screen and (max-width:770px){
+         .testimonial-col{
+            height:400px;
+            flex-basis: 28%;
+          
+         }
+         .more {
+            padding-left: 200px;
+            padding-top: 20px;
+            font-size: 20px;
+            }
+         
+        }
+        .devider{
+         width:700px;
+         height:0.5px;
+         color:#009688;
+        }
+
+        /*--Footer--*/
+        #footer{
+         padding:100px 0 20px;
+         background: #efefef;
+         position: relative;
+        }
+        .map img{
+         width:500px;
+         height:300px;
+         margin-left:60px;
+        
+        }
+        .footer-logo img{
+         width:40px;
+         
+
+        }
+        .footer-row{
+         width:80%;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+        }
+        .footer-left{
+         flex-basis: 40%;
+         padding: 10px;
+         margin-bottom: 20px;
+
+
+        }
+        .footer-right{
+         flex-basis: 40%;
+         padding: 10px;
+         margin-bottom: 20px;
+
+        }
+        .footer-right{
+         text-align: right;
+        }
+        .footer-row h1{
+         margin:10px 0;
+       }
+      .footer-row p{
+       line-height: 35px;
+      }
+      .footer-left{
+        font-size: 15px;
+        color:rgb(62, 126, 223);
+        margin:10px;
+
+        }
+        .footer-right{
+         font-size: 15px;
+        color:rgb(62, 126, 223);
+        margin:10px;
+      }
+   .footer-img{
+      max-width: 400px;
+      opacity: 0.1;
+      position:absolute;
+      left:50%;
+      top:35%;
+      transform: translate(-50%,-50%);
+
+   }
+   .social-links{
+      text-align: center;
+
+   }
+   .social-links .fa-instagram, .fa-facebook-square, .fa-youtube-square{
+      height:40px;
+      width:45px;
+      font-size: 40px;
+      line-height: 40px;
+      border:1px solid rgb(62, 126, 223);
+      color:rgb(62, 126, 223);
+      margin:40px 5px 0;
+      cursor:pointer;
+      transition: .5s;
+
+   }
+   .social-links .fa-youtube-square:hover{
+      background:rgb(62, 126, 223);
+      color:#fff;
+      transform: translateY(-7px);
+   }
+   .social-links .fa-instagram:hover{
+      background:rgb(62, 126, 223);
+      color:#fff;
+      transform: translateY(-7px);
+   }
+   .fa-facebook-square:hover{
+      background:rgb(62, 126, 223);
+      color:#fff;
+      transform: translateY(-7px);
+   }
+
+
+   #copyrigths{
+      border-top: rgb(62, 126, 223);
+      padding:100px 0 20px;
+      background: #efefef;
+      position: relative;
+      
+
+   }
+   
